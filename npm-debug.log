@@ -1,0 +1,1584 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData minecraft-data
+20 silly mapToRegistry name minecraft-data
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/minecraft-data
+24 silly fetchNamedPackageData minecraft-protocol
+25 silly mapToRegistry name minecraft-protocol
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/minecraft-protocol
+29 silly fetchNamedPackageData prismarine-biome
+30 silly mapToRegistry name prismarine-biome
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/prismarine-biome
+34 silly fetchNamedPackageData prismarine-block
+35 silly mapToRegistry name prismarine-block
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/prismarine-block
+39 silly fetchNamedPackageData prismarine-chat
+40 silly mapToRegistry name prismarine-chat
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/prismarine-chat
+44 silly fetchNamedPackageData prismarine-chunk
+45 silly mapToRegistry name prismarine-chunk
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/prismarine-chunk
+49 silly fetchNamedPackageData prismarine-entity
+50 silly mapToRegistry name prismarine-entity
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/prismarine-entity
+54 silly fetchNamedPackageData prismarine-item
+55 silly mapToRegistry name prismarine-item
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/prismarine-item
+59 silly fetchNamedPackageData prismarine-physics
+60 silly mapToRegistry name prismarine-physics
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/prismarine-physics
+64 silly fetchNamedPackageData prismarine-recipe
+65 silly mapToRegistry name prismarine-recipe
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/prismarine-recipe
+69 silly fetchNamedPackageData prismarine-windows
+70 silly mapToRegistry name prismarine-windows
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/prismarine-windows
+74 silly fetchNamedPackageData prismarine-world
+75 silly mapToRegistry name prismarine-world
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/prismarine-world
+79 silly fetchNamedPackageData protodef
+80 silly mapToRegistry name protodef
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/protodef
+84 silly fetchNamedPackageData typed-emitter
+85 silly mapToRegistry name typed-emitter
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/typed-emitter
+89 silly fetchNamedPackageData vec3
+90 silly mapToRegistry name vec3
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/vec3
+94 verbose request uri https://registry.npmjs.org/minecraft-data
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 11:05:21
+97 verbose request id 091c13751c1395bc
+98 http request GET https://registry.npmjs.org/minecraft-data
+99 verbose request uri https://registry.npmjs.org/minecraft-protocol
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 11:05:21
+102 http request GET https://registry.npmjs.org/minecraft-protocol
+103 verbose request uri https://registry.npmjs.org/prismarine-biome
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 11:05:21
+106 http request GET https://registry.npmjs.org/prismarine-biome
+107 verbose request uri https://registry.npmjs.org/prismarine-block
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 11:05:21
+110 http request GET https://registry.npmjs.org/prismarine-block
+111 verbose request uri https://registry.npmjs.org/prismarine-chat
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 11:05:21
+114 http request GET https://registry.npmjs.org/prismarine-chat
+115 verbose request uri https://registry.npmjs.org/prismarine-chunk
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 11:05:21
+118 http request GET https://registry.npmjs.org/prismarine-chunk
+119 verbose request uri https://registry.npmjs.org/prismarine-entity
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 11:05:21
+122 http request GET https://registry.npmjs.org/prismarine-entity
+123 verbose request uri https://registry.npmjs.org/prismarine-item
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 11:05:21
+126 http request GET https://registry.npmjs.org/prismarine-item
+127 verbose request uri https://registry.npmjs.org/prismarine-physics
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 11:05:21
+130 http request GET https://registry.npmjs.org/prismarine-physics
+131 verbose request uri https://registry.npmjs.org/prismarine-recipe
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 11:05:21
+134 http request GET https://registry.npmjs.org/prismarine-recipe
+135 verbose request uri https://registry.npmjs.org/prismarine-windows
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 11:05:21
+138 http request GET https://registry.npmjs.org/prismarine-windows
+139 verbose request uri https://registry.npmjs.org/prismarine-world
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 11:05:21
+142 http request GET https://registry.npmjs.org/prismarine-world
+143 verbose request uri https://registry.npmjs.org/protodef
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 11:05:21
+146 http request GET https://registry.npmjs.org/protodef
+147 verbose request uri https://registry.npmjs.org/typed-emitter
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 11:05:21
+150 http request GET https://registry.npmjs.org/typed-emitter
+151 verbose request uri https://registry.npmjs.org/vec3
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 11:05:21
+154 http request GET https://registry.npmjs.org/vec3
+155 http 200 https://registry.npmjs.org/typed-emitter
+156 verbose headers { date: 'Thu, 11 Feb 2021 11:05:21 GMT',
+156 verbose headers   'content-type': 'application/json',
+156 verbose headers   'transfer-encoding': 'chunked',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'set-cookie':
+156 verbose headers    [ '__cfduid=d1c9a87a877a5a010829959f29cba0f7d1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+156 verbose headers   'cf-ray': '61fd9825e8bc40d2-LHR',
+156 verbose headers   age: '510',
+156 verbose headers   'cache-control': 'public, max-age=300',
+156 verbose headers   etag: 'W/"6863fdff1c3624bec22250b1eb75d2dd"',
+156 verbose headers   'last-modified': 'Wed, 23 Sep 2020 19:33:44 GMT',
+156 verbose headers   vary: 'accept-encoding, accept',
+156 verbose headers   'cf-cache-status': 'HIT',
+156 verbose headers   'cf-request-id': '08325d6bb0000040d2da269000000001',
+156 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+156 verbose headers   server: 'cloudflare',
+156 verbose headers   'content-encoding': 'gzip' }
+157 silly get cb [ 200,
+157 silly get   { date: 'Thu, 11 Feb 2021 11:05:21 GMT',
+157 silly get     'content-type': 'application/json',
+157 silly get     'transfer-encoding': 'chunked',
+157 silly get     connection: 'keep-alive',
+157 silly get     'set-cookie':
+157 silly get      [ '__cfduid=d1c9a87a877a5a010829959f29cba0f7d1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+157 silly get     'cf-ray': '61fd9825e8bc40d2-LHR',
+157 silly get     age: '510',
+157 silly get     'cache-control': 'public, max-age=300',
+157 silly get     etag: 'W/"6863fdff1c3624bec22250b1eb75d2dd"',
+157 silly get     'last-modified': 'Wed, 23 Sep 2020 19:33:44 GMT',
+157 silly get     vary: 'accept-encoding, accept',
+157 silly get     'cf-cache-status': 'HIT',
+157 silly get     'cf-request-id': '08325d6bb0000040d2da269000000001',
+157 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+157 silly get     server: 'cloudflare',
+157 silly get     'content-encoding': 'gzip' } ]
+158 verbose get saving typed-emitter to /home/lcornelius/.npm/registry.npmjs.org/typed-emitter/.cache.json
+159 verbose makeDirectory /home/lcornelius/.npm creation not in flight; initializing
+160 silly makeDirectory /home/lcornelius/.npm uid: 1000 gid: 1000
+161 silly resolveWithNewModule typed-emitter@1.3.1 checking installable status
+162 silly cache add args [ 'typed-emitter@^1.2.0', null ]
+163 verbose cache add spec typed-emitter@^1.2.0
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: 'typed-emitter@^1.2.0',
+164 silly cache add   scope: null,
+164 silly cache add   name: 'typed-emitter',
+164 silly cache add   rawSpec: '^1.2.0',
+164 silly cache add   spec: '>=1.2.0 <2.0.0',
+164 silly cache add   type: 'range' }
+165 silly addNamed typed-emitter@>=1.2.0 <2.0.0
+166 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for typed-emitter
+167 silly addNameRange { name: 'typed-emitter',
+167 silly addNameRange   range: '>=1.2.0 <2.0.0',
+167 silly addNameRange   hasData: false }
+168 silly mapToRegistry name typed-emitter
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry uri https://registry.npmjs.org/typed-emitter
+172 verbose addNameRange registry:https://registry.npmjs.org/typed-emitter not in flight; fetching
+173 verbose get https://registry.npmjs.org/typed-emitter not expired, no request
+174 silly addNameRange number 2 { name: 'typed-emitter', range: '>=1.2.0 <2.0.0', hasData: true }
+175 silly addNameRange versions [ 'typed-emitter',
+175 silly addNameRange   [ '0.0.1',
+175 silly addNameRange     '0.0.2',
+175 silly addNameRange     '0.1.0',
+175 silly addNameRange     '0.2.0',
+175 silly addNameRange     '1.0.0',
+175 silly addNameRange     '1.1.0',
+175 silly addNameRange     '1.2.0',
+175 silly addNameRange     '1.3.0',
+175 silly addNameRange     '1.3.1' ] ]
+176 silly addNamed typed-emitter@1.3.1
+177 verbose addNamed "1.3.1" is a plain semver version for typed-emitter
+178 silly mapToRegistry name typed-emitter
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry uri https://registry.npmjs.org/typed-emitter
+182 verbose addRemoteTarball https://registry.npmjs.org/typed-emitter/-/typed-emitter-1.3.1.tgz not in flight; adding
+183 verbose addRemoteTarball [ 'https://registry.npmjs.org/typed-emitter/-/typed-emitter-1.3.1.tgz',
+183 verbose addRemoteTarball   'c98d71551a99d5f08ba9085ee44b8fc9b2357502' ]
+184 info retry fetch attempt 1 at 11:05:21
+185 info attempt registry request try #1 at 11:05:21
+186 http fetch GET https://registry.npmjs.org/typed-emitter/-/typed-emitter-1.3.1.tgz
+187 http fetch 200 https://registry.npmjs.org/typed-emitter/-/typed-emitter-1.3.1.tgz
+188 silly fetchAndShaCheck shasum c98d71551a99d5f08ba9085ee44b8fc9b2357502
+189 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/typed-emitter/-/typed-emitter-1.3.1.tgz not in flight; adding
+190 verbose addTmpTarball already have metadata; skipping unpack for typed-emitter@1.3.1
+191 silly cache afterAdd typed-emitter@1.3.1
+192 verbose afterAdd /home/lcornelius/.npm/typed-emitter/1.3.1/package/package.json not in flight; writing
+193 verbose afterAdd /home/lcornelius/.npm/typed-emitter/1.3.1/package/package.json written
+194 http 200 https://registry.npmjs.org/minecraft-protocol
+195 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+195 verbose headers   'content-type': 'application/json',
+195 verbose headers   'transfer-encoding': 'chunked',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'set-cookie':
+195 verbose headers    [ '__cfduid=d66bc2595711534e181890896ec6b3f201613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+195 verbose headers   'cf-ray': '61fd9825ac0d06a6-LHR',
+195 verbose headers   'cache-control': 'public, max-age=300',
+195 verbose headers   etag: 'W/"be1ca5f431b2678f543231850a1d0ea9"',
+195 verbose headers   'last-modified': 'Sat, 06 Feb 2021 10:06:46 GMT',
+195 verbose headers   vary: 'accept-encoding, accept',
+195 verbose headers   'cf-cache-status': 'REVALIDATED',
+195 verbose headers   'cf-request-id': '08325d6b8a000006a68a985000000001',
+195 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+195 verbose headers   server: 'cloudflare',
+195 verbose headers   'content-encoding': 'gzip' }
+196 silly get cb [ 200,
+196 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+196 silly get     'content-type': 'application/json',
+196 silly get     'transfer-encoding': 'chunked',
+196 silly get     connection: 'keep-alive',
+196 silly get     'set-cookie':
+196 silly get      [ '__cfduid=d66bc2595711534e181890896ec6b3f201613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+196 silly get     'cf-ray': '61fd9825ac0d06a6-LHR',
+196 silly get     'cache-control': 'public, max-age=300',
+196 silly get     etag: 'W/"be1ca5f431b2678f543231850a1d0ea9"',
+196 silly get     'last-modified': 'Sat, 06 Feb 2021 10:06:46 GMT',
+196 silly get     vary: 'accept-encoding, accept',
+196 silly get     'cf-cache-status': 'REVALIDATED',
+196 silly get     'cf-request-id': '08325d6b8a000006a68a985000000001',
+196 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+196 silly get     server: 'cloudflare',
+196 silly get     'content-encoding': 'gzip' } ]
+197 verbose get saving minecraft-protocol to /home/lcornelius/.npm/registry.npmjs.org/minecraft-protocol/.cache.json
+198 silly resolveWithNewModule minecraft-protocol@1.23.1 checking installable status
+199 silly cache add args [ 'minecraft-protocol@^1.17.0', null ]
+200 verbose cache add spec minecraft-protocol@^1.17.0
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'minecraft-protocol@^1.17.0',
+201 silly cache add   scope: null,
+201 silly cache add   name: 'minecraft-protocol',
+201 silly cache add   rawSpec: '^1.17.0',
+201 silly cache add   spec: '>=1.17.0 <2.0.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed minecraft-protocol@>=1.17.0 <2.0.0
+203 verbose addNamed ">=1.17.0 <2.0.0" is a valid semver range for minecraft-protocol
+204 silly addNameRange { name: 'minecraft-protocol',
+204 silly addNameRange   range: '>=1.17.0 <2.0.0',
+204 silly addNameRange   hasData: false }
+205 silly mapToRegistry name minecraft-protocol
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry uri https://registry.npmjs.org/minecraft-protocol
+209 verbose addNameRange registry:https://registry.npmjs.org/minecraft-protocol not in flight; fetching
+210 verbose get https://registry.npmjs.org/minecraft-protocol not expired, no request
+211 silly addNameRange number 2 { name: 'minecraft-protocol',
+211 silly addNameRange   range: '>=1.17.0 <2.0.0',
+211 silly addNameRange   hasData: true }
+212 silly addNameRange versions [ 'minecraft-protocol',
+212 silly addNameRange   [ '0.0.2',
+212 silly addNameRange     '0.0.3',
+212 silly addNameRange     '0.1.0',
+212 silly addNameRange     '0.2.0',
+212 silly addNameRange     '0.3.0',
+212 silly addNameRange     '0.4.0',
+212 silly addNameRange     '0.5.0',
+212 silly addNameRange     '0.5.1',
+212 silly addNameRange     '0.5.2',
+212 silly addNameRange     '0.6.0',
+212 silly addNameRange     '0.6.1',
+212 silly addNameRange     '0.6.2',
+212 silly addNameRange     '0.6.3',
+212 silly addNameRange     '0.6.4',
+212 silly addNameRange     '0.6.5',
+212 silly addNameRange     '0.6.6',
+212 silly addNameRange     '0.6.7',
+212 silly addNameRange     '0.7.0',
+212 silly addNameRange     '0.7.1',
+212 silly addNameRange     '0.7.2',
+212 silly addNameRange     '0.7.3',
+212 silly addNameRange     '0.7.4',
+212 silly addNameRange     '0.7.5',
+212 silly addNameRange     '0.7.6',
+212 silly addNameRange     '0.7.7',
+212 silly addNameRange     '0.7.8',
+212 silly addNameRange     '0.7.9',
+212 silly addNameRange     '0.8.0',
+212 silly addNameRange     '0.8.1',
+212 silly addNameRange     '0.9.0',
+212 silly addNameRange     '0.10.0',
+212 silly addNameRange     '0.10.1',
+212 silly addNameRange     '0.11.0',
+212 silly addNameRange     '0.11.1',
+212 silly addNameRange     '0.11.2',
+212 silly addNameRange     '0.11.3',
+212 silly addNameRange     '0.11.4',
+212 silly addNameRange     '0.11.5',
+212 silly addNameRange     '0.11.6',
+212 silly addNameRange     '0.12.0',
+212 silly addNameRange     '0.12.1',
+212 silly addNameRange     '0.12.2',
+212 silly addNameRange     '0.12.3',
+212 silly addNameRange     '0.13.0',
+212 silly addNameRange     '0.13.1',
+212 silly addNameRange     '0.13.2',
+212 silly addNameRange     '0.13.3',
+212 silly addNameRange     '0.13.4',
+212 silly addNameRange     '0.14.0',
+212 silly addNameRange     '0.15.0',
+212 silly addNameRange     '0.16.0',
+212 silly addNameRange     '0.16.1',
+212 silly addNameRange     '0.16.2',
+212 silly addNameRange     '0.16.3',
+212 silly addNameRange     '0.16.4',
+212 silly addNameRange     '0.16.5',
+212 silly addNameRange     '0.16.6',
+212 silly addNameRange     '0.17.0',
+212 silly addNameRange     '0.17.1',
+212 silly addNameRange     '0.17.2',
+212 silly addNameRange     '0.18.0',
+212 silly addNameRange     '0.18.1',
+212 silly addNameRange     '0.18.2',
+212 silly addNameRange     '0.18.3',
+212 silly addNameRange     '0.19.0',
+212 silly addNameRange     '0.19.1',
+212 silly addNameRange     '0.19.2',
+212 silly addNameRange     '0.19.3',
+212 silly addNameRange     '0.19.4',
+212 silly addNameRange     '0.19.5',
+212 silly addNameRange     '0.19.6',
+212 silly addNameRange     '1.0.0',
+212 silly addNameRange     '1.0.1',
+212 silly addNameRange     '1.1.0',
+212 silly addNameRange     '1.1.1',
+212 silly addNameRange     '1.1.2',
+212 silly addNameRange     '1.1.3',
+212 silly addNameRange     '1.2.0',
+212 silly addNameRange     '1.3.0',
+212 silly addNameRange     '1.3.1',
+212 silly addNameRange     '1.3.2',
+212 silly addNameRange     '1.4.0',
+212 silly addNameRange     '1.4.1',
+212 silly addNameRange     '1.5.0',
+212 silly addNameRange     '1.5.1',
+212 silly addNameRange     '1.5.2',
+212 silly addNameRange     '1.5.3',
+212 silly addNameRange     '1.6.0',
+212 silly addNameRange     '1.7.0',
+212 silly addNameRange     '1.8.0',
+212 silly addNameRange     '1.8.1',
+212 silly addNameRange     '1.8.2',
+212 silly addNameRange     '1.8.3',
+212 silly addNameRange     '1.9.0',
+212 silly addNameRange     '1.9.1',
+212 silly addNameRange     '1.9.2',
+212 silly addNameRange     '1.9.3',
+212 silly addNameRange     '1.9.4',
+212 silly addNameRange     '1.10.0',
+212 silly addNameRange     '1.11.0',
+212 silly addNameRange     ... 19 more items ] ]
+213 silly addNamed minecraft-protocol@1.23.1
+214 verbose addNamed "1.23.1" is a plain semver version for minecraft-protocol
+215 silly mapToRegistry name minecraft-protocol
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry https://registry.npmjs.org/
+218 silly mapToRegistry uri https://registry.npmjs.org/minecraft-protocol
+219 verbose addRemoteTarball https://registry.npmjs.org/minecraft-protocol/-/minecraft-protocol-1.23.1.tgz not in flight; adding
+220 verbose addRemoteTarball [ 'https://registry.npmjs.org/minecraft-protocol/-/minecraft-protocol-1.23.1.tgz',
+220 verbose addRemoteTarball   '4fbb7c36e82ecbfb8783559c0e1ebc5900c7d853' ]
+221 http 200 https://registry.npmjs.org/prismarine-biome
+222 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+222 verbose headers   'content-type': 'application/json',
+222 verbose headers   'transfer-encoding': 'chunked',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'set-cookie':
+222 verbose headers    [ '__cfduid=d8bb1aa14cb0137531723d776e35fea581613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+222 verbose headers   'cf-ray': '61fd9825b96fbb88-LHR',
+222 verbose headers   'cache-control': 'public, max-age=300',
+222 verbose headers   etag: 'W/"47c24025b0403c83a5dfeec06df5c9a8"',
+222 verbose headers   'last-modified': 'Fri, 04 Sep 2020 15:24:01 GMT',
+222 verbose headers   vary: 'accept-encoding, accept',
+222 verbose headers   'cf-cache-status': 'MISS',
+222 verbose headers   'cf-request-id': '08325d6b920000bb887c87b000000001',
+222 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+222 verbose headers   server: 'cloudflare',
+222 verbose headers   'content-encoding': 'gzip' }
+223 silly get cb [ 200,
+223 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+223 silly get     'content-type': 'application/json',
+223 silly get     'transfer-encoding': 'chunked',
+223 silly get     connection: 'keep-alive',
+223 silly get     'set-cookie':
+223 silly get      [ '__cfduid=d8bb1aa14cb0137531723d776e35fea581613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+223 silly get     'cf-ray': '61fd9825b96fbb88-LHR',
+223 silly get     'cache-control': 'public, max-age=300',
+223 silly get     etag: 'W/"47c24025b0403c83a5dfeec06df5c9a8"',
+223 silly get     'last-modified': 'Fri, 04 Sep 2020 15:24:01 GMT',
+223 silly get     vary: 'accept-encoding, accept',
+223 silly get     'cf-cache-status': 'MISS',
+223 silly get     'cf-request-id': '08325d6b920000bb887c87b000000001',
+223 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+223 silly get     server: 'cloudflare',
+223 silly get     'content-encoding': 'gzip' } ]
+224 verbose get saving prismarine-biome to /home/lcornelius/.npm/registry.npmjs.org/prismarine-biome/.cache.json
+225 info retry fetch attempt 1 at 11:05:22
+226 info attempt registry request try #1 at 11:05:22
+227 http fetch GET https://registry.npmjs.org/minecraft-protocol/-/minecraft-protocol-1.23.1.tgz
+228 silly resolveWithNewModule prismarine-biome@1.1.1 checking installable status
+229 silly cache add args [ 'prismarine-biome@^1.1.0', null ]
+230 verbose cache add spec prismarine-biome@^1.1.0
+231 silly cache add parsed spec Result {
+231 silly cache add   raw: 'prismarine-biome@^1.1.0',
+231 silly cache add   scope: null,
+231 silly cache add   name: 'prismarine-biome',
+231 silly cache add   rawSpec: '^1.1.0',
+231 silly cache add   spec: '>=1.1.0 <2.0.0',
+231 silly cache add   type: 'range' }
+232 silly addNamed prismarine-biome@>=1.1.0 <2.0.0
+233 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for prismarine-biome
+234 silly addNameRange { name: 'prismarine-biome',
+234 silly addNameRange   range: '>=1.1.0 <2.0.0',
+234 silly addNameRange   hasData: false }
+235 silly mapToRegistry name prismarine-biome
+236 silly mapToRegistry using default registry
+237 silly mapToRegistry registry https://registry.npmjs.org/
+238 silly mapToRegistry uri https://registry.npmjs.org/prismarine-biome
+239 verbose addNameRange registry:https://registry.npmjs.org/prismarine-biome not in flight; fetching
+240 verbose get https://registry.npmjs.org/prismarine-biome not expired, no request
+241 silly addNameRange number 2 { name: 'prismarine-biome',
+241 silly addNameRange   range: '>=1.1.0 <2.0.0',
+241 silly addNameRange   hasData: true }
+242 silly addNameRange versions [ 'prismarine-biome',
+242 silly addNameRange   [ '0.1.0', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+243 silly addNamed prismarine-biome@1.1.1
+244 verbose addNamed "1.1.1" is a plain semver version for prismarine-biome
+245 silly mapToRegistry name prismarine-biome
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npmjs.org/
+248 silly mapToRegistry uri https://registry.npmjs.org/prismarine-biome
+249 verbose addRemoteTarball https://registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz not in flight; adding
+250 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz',
+250 verbose addRemoteTarball   '865f80fb94293e6e5be66c9f5f826323564ad2e0' ]
+251 info retry fetch attempt 1 at 11:05:22
+252 info attempt registry request try #1 at 11:05:22
+253 http fetch GET https://registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz
+254 http 200 https://registry.npmjs.org/prismarine-entity
+255 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+255 verbose headers   'content-type': 'application/json',
+255 verbose headers   'transfer-encoding': 'chunked',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'set-cookie':
+255 verbose headers    [ '__cfduid=de37ac0259152ba3e99c765c85ddbd2c71613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+255 verbose headers   'cf-ray': '61fd9825df1706e9-LHR',
+255 verbose headers   'cache-control': 'public, max-age=300',
+255 verbose headers   etag: 'W/"dfa7f446ea7029e9af7e58fe7f83f931"',
+255 verbose headers   'last-modified': 'Tue, 20 Oct 2020 19:00:14 GMT',
+255 verbose headers   vary: 'accept-encoding, accept',
+255 verbose headers   'cf-cache-status': 'MISS',
+255 verbose headers   'cf-request-id': '08325d6ba9000006e9a63f6000000001',
+255 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+255 verbose headers   server: 'cloudflare',
+255 verbose headers   'content-encoding': 'gzip' }
+256 silly get cb [ 200,
+256 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+256 silly get     'content-type': 'application/json',
+256 silly get     'transfer-encoding': 'chunked',
+256 silly get     connection: 'keep-alive',
+256 silly get     'set-cookie':
+256 silly get      [ '__cfduid=de37ac0259152ba3e99c765c85ddbd2c71613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+256 silly get     'cf-ray': '61fd9825df1706e9-LHR',
+256 silly get     'cache-control': 'public, max-age=300',
+256 silly get     etag: 'W/"dfa7f446ea7029e9af7e58fe7f83f931"',
+256 silly get     'last-modified': 'Tue, 20 Oct 2020 19:00:14 GMT',
+256 silly get     vary: 'accept-encoding, accept',
+256 silly get     'cf-cache-status': 'MISS',
+256 silly get     'cf-request-id': '08325d6ba9000006e9a63f6000000001',
+256 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+256 silly get     server: 'cloudflare',
+256 silly get     'content-encoding': 'gzip' } ]
+257 verbose get saving prismarine-entity to /home/lcornelius/.npm/registry.npmjs.org/prismarine-entity/.cache.json
+258 silly resolveWithNewModule prismarine-entity@1.1.0 checking installable status
+259 silly cache add args [ 'prismarine-entity@^1.0.0', null ]
+260 verbose cache add spec prismarine-entity@^1.0.0
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: 'prismarine-entity@^1.0.0',
+261 silly cache add   scope: null,
+261 silly cache add   name: 'prismarine-entity',
+261 silly cache add   rawSpec: '^1.0.0',
+261 silly cache add   spec: '>=1.0.0 <2.0.0',
+261 silly cache add   type: 'range' }
+262 silly addNamed prismarine-entity@>=1.0.0 <2.0.0
+263 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for prismarine-entity
+264 silly addNameRange { name: 'prismarine-entity',
+264 silly addNameRange   range: '>=1.0.0 <2.0.0',
+264 silly addNameRange   hasData: false }
+265 silly mapToRegistry name prismarine-entity
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry uri https://registry.npmjs.org/prismarine-entity
+269 verbose addNameRange registry:https://registry.npmjs.org/prismarine-entity not in flight; fetching
+270 verbose get https://registry.npmjs.org/prismarine-entity not expired, no request
+271 silly addNameRange number 2 { name: 'prismarine-entity',
+271 silly addNameRange   range: '>=1.0.0 <2.0.0',
+271 silly addNameRange   hasData: true }
+272 silly addNameRange versions [ 'prismarine-entity', [ '0.1.0', '0.2.0', '1.0.0', '1.1.0' ] ]
+273 silly addNamed prismarine-entity@1.1.0
+274 verbose addNamed "1.1.0" is a plain semver version for prismarine-entity
+275 silly mapToRegistry name prismarine-entity
+276 silly mapToRegistry using default registry
+277 silly mapToRegistry registry https://registry.npmjs.org/
+278 silly mapToRegistry uri https://registry.npmjs.org/prismarine-entity
+279 verbose addRemoteTarball https://registry.npmjs.org/prismarine-entity/-/prismarine-entity-1.1.0.tgz not in flight; adding
+280 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-entity/-/prismarine-entity-1.1.0.tgz',
+280 verbose addRemoteTarball   'c56eb616f914ab08ac201de5577784e42616b9eb' ]
+281 info retry fetch attempt 1 at 11:05:22
+282 info attempt registry request try #1 at 11:05:22
+283 http fetch GET https://registry.npmjs.org/prismarine-entity/-/prismarine-entity-1.1.0.tgz
+284 http 200 https://registry.npmjs.org/prismarine-recipe
+285 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+285 verbose headers   'content-type': 'application/json',
+285 verbose headers   'transfer-encoding': 'chunked',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'set-cookie':
+285 verbose headers    [ '__cfduid=d190c1c9b8c4173dabce559f02bbdf5d81613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+285 verbose headers   'cf-ray': '61fd9825d96b40f0-LHR',
+285 verbose headers   'cache-control': 'public, max-age=300',
+285 verbose headers   etag: 'W/"22736feccc0c0f27523a676408fef938"',
+285 verbose headers   'last-modified': 'Sat, 16 May 2020 20:54:09 GMT',
+285 verbose headers   vary: 'accept-encoding, accept',
+285 verbose headers   'cf-cache-status': 'MISS',
+285 verbose headers   'cf-request-id': '08325d6baa000040f041be3000000001',
+285 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+285 verbose headers   server: 'cloudflare',
+285 verbose headers   'content-encoding': 'gzip' }
+286 silly get cb [ 200,
+286 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+286 silly get     'content-type': 'application/json',
+286 silly get     'transfer-encoding': 'chunked',
+286 silly get     connection: 'keep-alive',
+286 silly get     'set-cookie':
+286 silly get      [ '__cfduid=d190c1c9b8c4173dabce559f02bbdf5d81613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+286 silly get     'cf-ray': '61fd9825d96b40f0-LHR',
+286 silly get     'cache-control': 'public, max-age=300',
+286 silly get     etag: 'W/"22736feccc0c0f27523a676408fef938"',
+286 silly get     'last-modified': 'Sat, 16 May 2020 20:54:09 GMT',
+286 silly get     vary: 'accept-encoding, accept',
+286 silly get     'cf-cache-status': 'MISS',
+286 silly get     'cf-request-id': '08325d6baa000040f041be3000000001',
+286 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+286 silly get     server: 'cloudflare',
+286 silly get     'content-encoding': 'gzip' } ]
+287 verbose get saving prismarine-recipe to /home/lcornelius/.npm/registry.npmjs.org/prismarine-recipe/.cache.json
+288 http fetch 200 https://registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz
+289 http fetch 200 https://registry.npmjs.org/minecraft-protocol/-/minecraft-protocol-1.23.1.tgz
+290 silly fetchAndShaCheck shasum 865f80fb94293e6e5be66c9f5f826323564ad2e0
+291 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-biome/-/prismarine-biome-1.1.1.tgz not in flight; adding
+292 verbose addTmpTarball already have metadata; skipping unpack for prismarine-biome@1.1.1
+293 silly cache afterAdd prismarine-biome@1.1.1
+294 verbose afterAdd /home/lcornelius/.npm/prismarine-biome/1.1.1/package/package.json not in flight; writing
+295 silly fetchAndShaCheck shasum 4fbb7c36e82ecbfb8783559c0e1ebc5900c7d853
+296 verbose afterAdd /home/lcornelius/.npm/prismarine-biome/1.1.1/package/package.json written
+297 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/minecraft-protocol/-/minecraft-protocol-1.23.1.tgz not in flight; adding
+298 verbose addTmpTarball already have metadata; skipping unpack for minecraft-protocol@1.23.1
+299 http fetch 200 https://registry.npmjs.org/prismarine-entity/-/prismarine-entity-1.1.0.tgz
+300 silly fetchAndShaCheck shasum c56eb616f914ab08ac201de5577784e42616b9eb
+301 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-entity/-/prismarine-entity-1.1.0.tgz not in flight; adding
+302 verbose addTmpTarball already have metadata; skipping unpack for prismarine-entity@1.1.0
+303 silly cache afterAdd minecraft-protocol@1.23.1
+304 verbose afterAdd /home/lcornelius/.npm/minecraft-protocol/1.23.1/package/package.json not in flight; writing
+305 verbose afterAdd /home/lcornelius/.npm/minecraft-protocol/1.23.1/package/package.json written
+306 silly resolveWithNewModule prismarine-recipe@1.1.0 checking installable status
+307 silly cache add args [ 'prismarine-recipe@^1.1.0', null ]
+308 verbose cache add spec prismarine-recipe@^1.1.0
+309 silly cache add parsed spec Result {
+309 silly cache add   raw: 'prismarine-recipe@^1.1.0',
+309 silly cache add   scope: null,
+309 silly cache add   name: 'prismarine-recipe',
+309 silly cache add   rawSpec: '^1.1.0',
+309 silly cache add   spec: '>=1.1.0 <2.0.0',
+309 silly cache add   type: 'range' }
+310 silly addNamed prismarine-recipe@>=1.1.0 <2.0.0
+311 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for prismarine-recipe
+312 silly addNameRange { name: 'prismarine-recipe',
+312 silly addNameRange   range: '>=1.1.0 <2.0.0',
+312 silly addNameRange   hasData: false }
+313 silly mapToRegistry name prismarine-recipe
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry uri https://registry.npmjs.org/prismarine-recipe
+317 verbose addNameRange registry:https://registry.npmjs.org/prismarine-recipe not in flight; fetching
+318 verbose get https://registry.npmjs.org/prismarine-recipe not expired, no request
+319 silly addNameRange number 2 { name: 'prismarine-recipe',
+319 silly addNameRange   range: '>=1.1.0 <2.0.0',
+319 silly addNameRange   hasData: true }
+320 silly addNameRange versions [ 'prismarine-recipe', [ '0.0.0', '1.0.0', '1.0.1', '1.1.0' ] ]
+321 silly addNamed prismarine-recipe@1.1.0
+322 verbose addNamed "1.1.0" is a plain semver version for prismarine-recipe
+323 silly cache afterAdd prismarine-entity@1.1.0
+324 verbose afterAdd /home/lcornelius/.npm/prismarine-entity/1.1.0/package/package.json not in flight; writing
+325 silly mapToRegistry name prismarine-recipe
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/prismarine-recipe
+329 verbose addRemoteTarball https://registry.npmjs.org/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz not in flight; adding
+330 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz',
+330 verbose addRemoteTarball   'ba83fea0d6f5ad3be83398a20f85f7e800665732' ]
+331 info retry fetch attempt 1 at 11:05:22
+332 info attempt registry request try #1 at 11:05:22
+333 http fetch GET https://registry.npmjs.org/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz
+334 verbose afterAdd /home/lcornelius/.npm/prismarine-entity/1.1.0/package/package.json written
+335 http fetch 200 https://registry.npmjs.org/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz
+336 silly fetchAndShaCheck shasum ba83fea0d6f5ad3be83398a20f85f7e800665732
+337 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-recipe/-/prismarine-recipe-1.1.0.tgz not in flight; adding
+338 verbose addTmpTarball already have metadata; skipping unpack for prismarine-recipe@1.1.0
+339 silly cache afterAdd prismarine-recipe@1.1.0
+340 verbose afterAdd /home/lcornelius/.npm/prismarine-recipe/1.1.0/package/package.json not in flight; writing
+341 verbose afterAdd /home/lcornelius/.npm/prismarine-recipe/1.1.0/package/package.json written
+342 http 200 https://registry.npmjs.org/prismarine-block
+343 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+343 verbose headers   'content-type': 'application/json',
+343 verbose headers   'transfer-encoding': 'chunked',
+343 verbose headers   connection: 'keep-alive',
+343 verbose headers   'set-cookie':
+343 verbose headers    [ '__cfduid=d0677749ca7499335f51aaf84a46408231613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+343 verbose headers   'cf-ray': '61fd9825bf45425d-LHR',
+343 verbose headers   'cache-control': 'public, max-age=300',
+343 verbose headers   etag: 'W/"215f9224561d1d1944555c543287cf18"',
+343 verbose headers   'last-modified': 'Fri, 01 Jan 2021 20:21:48 GMT',
+343 verbose headers   vary: 'accept-encoding, accept',
+343 verbose headers   'cf-cache-status': 'MISS',
+343 verbose headers   'cf-request-id': '08325d6b920000425d6db45000000001',
+343 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+343 verbose headers   server: 'cloudflare',
+343 verbose headers   'content-encoding': 'gzip' }
+344 silly get cb [ 200,
+344 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+344 silly get     'content-type': 'application/json',
+344 silly get     'transfer-encoding': 'chunked',
+344 silly get     connection: 'keep-alive',
+344 silly get     'set-cookie':
+344 silly get      [ '__cfduid=d0677749ca7499335f51aaf84a46408231613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+344 silly get     'cf-ray': '61fd9825bf45425d-LHR',
+344 silly get     'cache-control': 'public, max-age=300',
+344 silly get     etag: 'W/"215f9224561d1d1944555c543287cf18"',
+344 silly get     'last-modified': 'Fri, 01 Jan 2021 20:21:48 GMT',
+344 silly get     vary: 'accept-encoding, accept',
+344 silly get     'cf-cache-status': 'MISS',
+344 silly get     'cf-request-id': '08325d6b920000425d6db45000000001',
+344 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+344 silly get     server: 'cloudflare',
+344 silly get     'content-encoding': 'gzip' } ]
+345 verbose get saving prismarine-block to /home/lcornelius/.npm/registry.npmjs.org/prismarine-block/.cache.json
+346 silly resolveWithNewModule prismarine-block@1.7.3 checking installable status
+347 silly cache add args [ 'prismarine-block@^1.6.0', null ]
+348 verbose cache add spec prismarine-block@^1.6.0
+349 silly cache add parsed spec Result {
+349 silly cache add   raw: 'prismarine-block@^1.6.0',
+349 silly cache add   scope: null,
+349 silly cache add   name: 'prismarine-block',
+349 silly cache add   rawSpec: '^1.6.0',
+349 silly cache add   spec: '>=1.6.0 <2.0.0',
+349 silly cache add   type: 'range' }
+350 silly addNamed prismarine-block@>=1.6.0 <2.0.0
+351 verbose addNamed ">=1.6.0 <2.0.0" is a valid semver range for prismarine-block
+352 silly addNameRange { name: 'prismarine-block',
+352 silly addNameRange   range: '>=1.6.0 <2.0.0',
+352 silly addNameRange   hasData: false }
+353 silly mapToRegistry name prismarine-block
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry uri https://registry.npmjs.org/prismarine-block
+357 verbose addNameRange registry:https://registry.npmjs.org/prismarine-block not in flight; fetching
+358 verbose get https://registry.npmjs.org/prismarine-block not expired, no request
+359 silly addNameRange number 2 { name: 'prismarine-block',
+359 silly addNameRange   range: '>=1.6.0 <2.0.0',
+359 silly addNameRange   hasData: true }
+360 silly addNameRange versions [ 'prismarine-block',
+360 silly addNameRange   [ '0.1.0',
+360 silly addNameRange     '1.0.0',
+360 silly addNameRange     '1.0.1',
+360 silly addNameRange     '1.1.0',
+360 silly addNameRange     '1.1.1',
+360 silly addNameRange     '1.2.0',
+360 silly addNameRange     '1.3.0',
+360 silly addNameRange     '1.4.0',
+360 silly addNameRange     '1.5.0',
+360 silly addNameRange     '1.5.1',
+360 silly addNameRange     '1.6.0',
+360 silly addNameRange     '1.7.0',
+360 silly addNameRange     '1.7.1',
+360 silly addNameRange     '1.7.2',
+360 silly addNameRange     '1.7.3' ] ]
+361 silly addNamed prismarine-block@1.7.3
+362 verbose addNamed "1.7.3" is a plain semver version for prismarine-block
+363 silly mapToRegistry name prismarine-block
+364 silly mapToRegistry using default registry
+365 silly mapToRegistry registry https://registry.npmjs.org/
+366 silly mapToRegistry uri https://registry.npmjs.org/prismarine-block
+367 verbose addRemoteTarball https://registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.3.tgz not in flight; adding
+368 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.3.tgz',
+368 verbose addRemoteTarball   'da50eb756ab90c96df65ee66dc536e5099d6aa48' ]
+369 info retry fetch attempt 1 at 11:05:22
+370 info attempt registry request try #1 at 11:05:22
+371 http fetch GET https://registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.3.tgz
+372 http 200 https://registry.npmjs.org/prismarine-windows
+373 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+373 verbose headers   'content-type': 'application/json',
+373 verbose headers   'transfer-encoding': 'chunked',
+373 verbose headers   connection: 'keep-alive',
+373 verbose headers   'set-cookie':
+373 verbose headers    [ '__cfduid=dff581ada892b96cd26c4dbb973ac064c1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+373 verbose headers   'cf-ray': '61fd9825df4606d1-LHR',
+373 verbose headers   'cache-control': 'public, max-age=300',
+373 verbose headers   etag: 'W/"e7b01036fbe0b312e530c4f9d1d6fdb2"',
+373 verbose headers   'last-modified': 'Sat, 06 Feb 2021 09:48:37 GMT',
+373 verbose headers   vary: 'accept-encoding, accept',
+373 verbose headers   'cf-cache-status': 'MISS',
+373 verbose headers   'cf-request-id': '08325d6baa000006d1402f5000000001',
+373 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+373 verbose headers   server: 'cloudflare',
+373 verbose headers   'content-encoding': 'gzip' }
+374 silly get cb [ 200,
+374 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+374 silly get     'content-type': 'application/json',
+374 silly get     'transfer-encoding': 'chunked',
+374 silly get     connection: 'keep-alive',
+374 silly get     'set-cookie':
+374 silly get      [ '__cfduid=dff581ada892b96cd26c4dbb973ac064c1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+374 silly get     'cf-ray': '61fd9825df4606d1-LHR',
+374 silly get     'cache-control': 'public, max-age=300',
+374 silly get     etag: 'W/"e7b01036fbe0b312e530c4f9d1d6fdb2"',
+374 silly get     'last-modified': 'Sat, 06 Feb 2021 09:48:37 GMT',
+374 silly get     vary: 'accept-encoding, accept',
+374 silly get     'cf-cache-status': 'MISS',
+374 silly get     'cf-request-id': '08325d6baa000006d1402f5000000001',
+374 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+374 silly get     server: 'cloudflare',
+374 silly get     'content-encoding': 'gzip' } ]
+375 verbose get saving prismarine-windows to /home/lcornelius/.npm/registry.npmjs.org/prismarine-windows/.cache.json
+376 http 200 https://registry.npmjs.org/prismarine-item
+377 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+377 verbose headers   'content-type': 'application/json',
+377 verbose headers   'transfer-encoding': 'chunked',
+377 verbose headers   connection: 'keep-alive',
+377 verbose headers   'set-cookie':
+377 verbose headers    [ '__cfduid=dc0a28c7ff96856068f20d264cd6078091613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+377 verbose headers   'cf-ray': '61fd9825de5c4102-LHR',
+377 verbose headers   'cache-control': 'public, max-age=300',
+377 verbose headers   etag: 'W/"84c46da8324aa0d71eababa43cd147a9"',
+377 verbose headers   'last-modified': 'Mon, 06 Jul 2020 19:39:17 GMT',
+377 verbose headers   vary: 'accept-encoding, accept',
+377 verbose headers   'cf-cache-status': 'MISS',
+377 verbose headers   'cf-request-id': '08325d6ba600004102780f9000000001',
+377 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+377 verbose headers   server: 'cloudflare',
+377 verbose headers   'content-encoding': 'gzip' }
+378 silly get cb [ 200,
+378 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+378 silly get     'content-type': 'application/json',
+378 silly get     'transfer-encoding': 'chunked',
+378 silly get     connection: 'keep-alive',
+378 silly get     'set-cookie':
+378 silly get      [ '__cfduid=dc0a28c7ff96856068f20d264cd6078091613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+378 silly get     'cf-ray': '61fd9825de5c4102-LHR',
+378 silly get     'cache-control': 'public, max-age=300',
+378 silly get     etag: 'W/"84c46da8324aa0d71eababa43cd147a9"',
+378 silly get     'last-modified': 'Mon, 06 Jul 2020 19:39:17 GMT',
+378 silly get     vary: 'accept-encoding, accept',
+378 silly get     'cf-cache-status': 'MISS',
+378 silly get     'cf-request-id': '08325d6ba600004102780f9000000001',
+378 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+378 silly get     server: 'cloudflare',
+378 silly get     'content-encoding': 'gzip' } ]
+379 verbose get saving prismarine-item to /home/lcornelius/.npm/registry.npmjs.org/prismarine-item/.cache.json
+380 silly resolveWithNewModule prismarine-windows@2.0.0 checking installable status
+381 silly cache add args [ 'prismarine-windows@^2.0.0', null ]
+382 verbose cache add spec prismarine-windows@^2.0.0
+383 silly cache add parsed spec Result {
+383 silly cache add   raw: 'prismarine-windows@^2.0.0',
+383 silly cache add   scope: null,
+383 silly cache add   name: 'prismarine-windows',
+383 silly cache add   rawSpec: '^2.0.0',
+383 silly cache add   spec: '>=2.0.0 <3.0.0',
+383 silly cache add   type: 'range' }
+384 silly addNamed prismarine-windows@>=2.0.0 <3.0.0
+385 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for prismarine-windows
+386 silly addNameRange { name: 'prismarine-windows',
+386 silly addNameRange   range: '>=2.0.0 <3.0.0',
+386 silly addNameRange   hasData: false }
+387 silly mapToRegistry name prismarine-windows
+388 silly mapToRegistry using default registry
+389 silly mapToRegistry registry https://registry.npmjs.org/
+390 silly mapToRegistry uri https://registry.npmjs.org/prismarine-windows
+391 verbose addNameRange registry:https://registry.npmjs.org/prismarine-windows not in flight; fetching
+392 verbose get https://registry.npmjs.org/prismarine-windows not expired, no request
+393 silly addNameRange number 2 { name: 'prismarine-windows',
+393 silly addNameRange   range: '>=2.0.0 <3.0.0',
+393 silly addNameRange   hasData: true }
+394 silly addNameRange versions [ 'prismarine-windows',
+394 silly addNameRange   [ '0.0.0',
+394 silly addNameRange     '1.0.0',
+394 silly addNameRange     '1.0.1',
+394 silly addNameRange     '1.1.0',
+394 silly addNameRange     '1.1.1',
+394 silly addNameRange     '1.2.0',
+394 silly addNameRange     '1.3.0',
+394 silly addNameRange     '1.4.0',
+394 silly addNameRange     '1.5.0',
+394 silly addNameRange     '1.6.0',
+394 silly addNameRange     '2.0.0' ] ]
+395 silly addNamed prismarine-windows@2.0.0
+396 verbose addNamed "2.0.0" is a plain semver version for prismarine-windows
+397 silly mapToRegistry name prismarine-windows
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry uri https://registry.npmjs.org/prismarine-windows
+401 verbose addRemoteTarball https://registry.npmjs.org/prismarine-windows/-/prismarine-windows-2.0.0.tgz not in flight; adding
+402 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-windows/-/prismarine-windows-2.0.0.tgz',
+402 verbose addRemoteTarball   'da562d79f1f0a6b2a6d201b810271e95400e93af' ]
+403 silly resolveWithNewModule prismarine-item@1.5.0 checking installable status
+404 silly cache add args [ 'prismarine-item@^1.5.0', null ]
+405 verbose cache add spec prismarine-item@^1.5.0
+406 silly cache add parsed spec Result {
+406 silly cache add   raw: 'prismarine-item@^1.5.0',
+406 silly cache add   scope: null,
+406 silly cache add   name: 'prismarine-item',
+406 silly cache add   rawSpec: '^1.5.0',
+406 silly cache add   spec: '>=1.5.0 <2.0.0',
+406 silly cache add   type: 'range' }
+407 silly addNamed prismarine-item@>=1.5.0 <2.0.0
+408 verbose addNamed ">=1.5.0 <2.0.0" is a valid semver range for prismarine-item
+409 silly addNameRange { name: 'prismarine-item',
+409 silly addNameRange   range: '>=1.5.0 <2.0.0',
+409 silly addNameRange   hasData: false }
+410 silly mapToRegistry name prismarine-item
+411 silly mapToRegistry using default registry
+412 silly mapToRegistry registry https://registry.npmjs.org/
+413 silly mapToRegistry uri https://registry.npmjs.org/prismarine-item
+414 verbose addNameRange registry:https://registry.npmjs.org/prismarine-item not in flight; fetching
+415 info retry fetch attempt 1 at 11:05:22
+416 info attempt registry request try #1 at 11:05:22
+417 http fetch GET https://registry.npmjs.org/prismarine-windows/-/prismarine-windows-2.0.0.tgz
+418 verbose get https://registry.npmjs.org/prismarine-item not expired, no request
+419 silly addNameRange number 2 { name: 'prismarine-item',
+419 silly addNameRange   range: '>=1.5.0 <2.0.0',
+419 silly addNameRange   hasData: true }
+420 silly addNameRange versions [ 'prismarine-item',
+420 silly addNameRange   [ '0.0.0',
+420 silly addNameRange     '1.0.0',
+420 silly addNameRange     '1.0.1',
+420 silly addNameRange     '1.0.2',
+420 silly addNameRange     '1.1.0',
+420 silly addNameRange     '1.1.1',
+420 silly addNameRange     '1.2.0',
+420 silly addNameRange     '1.3.0',
+420 silly addNameRange     '1.4.0',
+420 silly addNameRange     '1.5.0' ] ]
+421 silly addNamed prismarine-item@1.5.0
+422 verbose addNamed "1.5.0" is a plain semver version for prismarine-item
+423 silly mapToRegistry name prismarine-item
+424 silly mapToRegistry using default registry
+425 silly mapToRegistry registry https://registry.npmjs.org/
+426 silly mapToRegistry uri https://registry.npmjs.org/prismarine-item
+427 verbose addRemoteTarball https://registry.npmjs.org/prismarine-item/-/prismarine-item-1.5.0.tgz not in flight; adding
+428 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-item/-/prismarine-item-1.5.0.tgz',
+428 verbose addRemoteTarball   '2e58da4014402bb4ba85e0d14360c5a46d2f7c56' ]
+429 info retry fetch attempt 1 at 11:05:22
+430 info attempt registry request try #1 at 11:05:22
+431 http fetch GET https://registry.npmjs.org/prismarine-item/-/prismarine-item-1.5.0.tgz
+432 http fetch 200 https://registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.3.tgz
+433 silly fetchAndShaCheck shasum da50eb756ab90c96df65ee66dc536e5099d6aa48
+434 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-block/-/prismarine-block-1.7.3.tgz not in flight; adding
+435 verbose addTmpTarball already have metadata; skipping unpack for prismarine-block@1.7.3
+436 silly cache afterAdd prismarine-block@1.7.3
+437 verbose afterAdd /home/lcornelius/.npm/prismarine-block/1.7.3/package/package.json not in flight; writing
+438 verbose afterAdd /home/lcornelius/.npm/prismarine-block/1.7.3/package/package.json written
+439 http 200 https://registry.npmjs.org/prismarine-chat
+440 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+440 verbose headers   'content-type': 'application/json',
+440 verbose headers   'transfer-encoding': 'chunked',
+440 verbose headers   connection: 'keep-alive',
+440 verbose headers   'set-cookie':
+440 verbose headers    [ '__cfduid=daaa2ae7a66b899375b3ab8a27995c4171613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+440 verbose headers   'cf-ray': '61fd9825c87bbba6-LHR',
+440 verbose headers   'cache-control': 'public, max-age=300',
+440 verbose headers   etag: 'W/"3fb56e44a1c02bb3ee7db9249a5263b4"',
+440 verbose headers   'last-modified': 'Fri, 27 Nov 2020 21:25:04 GMT',
+440 verbose headers   vary: 'accept-encoding, accept',
+440 verbose headers   'cf-cache-status': 'MISS',
+440 verbose headers   'cf-request-id': '08325d6ba00000bba65c324000000001',
+440 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+440 verbose headers   server: 'cloudflare',
+440 verbose headers   'content-encoding': 'gzip' }
+441 silly get cb [ 200,
+441 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+441 silly get     'content-type': 'application/json',
+441 silly get     'transfer-encoding': 'chunked',
+441 silly get     connection: 'keep-alive',
+441 silly get     'set-cookie':
+441 silly get      [ '__cfduid=daaa2ae7a66b899375b3ab8a27995c4171613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+441 silly get     'cf-ray': '61fd9825c87bbba6-LHR',
+441 silly get     'cache-control': 'public, max-age=300',
+441 silly get     etag: 'W/"3fb56e44a1c02bb3ee7db9249a5263b4"',
+441 silly get     'last-modified': 'Fri, 27 Nov 2020 21:25:04 GMT',
+441 silly get     vary: 'accept-encoding, accept',
+441 silly get     'cf-cache-status': 'MISS',
+441 silly get     'cf-request-id': '08325d6ba00000bba65c324000000001',
+441 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+441 silly get     server: 'cloudflare',
+441 silly get     'content-encoding': 'gzip' } ]
+442 verbose get saving prismarine-chat to /home/lcornelius/.npm/registry.npmjs.org/prismarine-chat/.cache.json
+443 silly resolveWithNewModule prismarine-chat@1.0.3 checking installable status
+444 silly cache add args [ 'prismarine-chat@^1.0.0', null ]
+445 verbose cache add spec prismarine-chat@^1.0.0
+446 silly cache add parsed spec Result {
+446 silly cache add   raw: 'prismarine-chat@^1.0.0',
+446 silly cache add   scope: null,
+446 silly cache add   name: 'prismarine-chat',
+446 silly cache add   rawSpec: '^1.0.0',
+446 silly cache add   spec: '>=1.0.0 <2.0.0',
+446 silly cache add   type: 'range' }
+447 silly addNamed prismarine-chat@>=1.0.0 <2.0.0
+448 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for prismarine-chat
+449 silly addNameRange { name: 'prismarine-chat',
+449 silly addNameRange   range: '>=1.0.0 <2.0.0',
+449 silly addNameRange   hasData: false }
+450 silly mapToRegistry name prismarine-chat
+451 silly mapToRegistry using default registry
+452 silly mapToRegistry registry https://registry.npmjs.org/
+453 silly mapToRegistry uri https://registry.npmjs.org/prismarine-chat
+454 verbose addNameRange registry:https://registry.npmjs.org/prismarine-chat not in flight; fetching
+455 verbose get https://registry.npmjs.org/prismarine-chat not expired, no request
+456 silly addNameRange number 2 { name: 'prismarine-chat',
+456 silly addNameRange   range: '>=1.0.0 <2.0.0',
+456 silly addNameRange   hasData: true }
+457 silly addNameRange versions [ 'prismarine-chat', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+458 silly addNamed prismarine-chat@1.0.3
+459 verbose addNamed "1.0.3" is a plain semver version for prismarine-chat
+460 silly mapToRegistry name prismarine-chat
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry https://registry.npmjs.org/
+463 silly mapToRegistry uri https://registry.npmjs.org/prismarine-chat
+464 verbose addRemoteTarball https://registry.npmjs.org/prismarine-chat/-/prismarine-chat-1.0.3.tgz not in flight; adding
+465 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-chat/-/prismarine-chat-1.0.3.tgz',
+465 verbose addRemoteTarball   '0889488ea498449f98522db988ff17678d054c74' ]
+466 info retry fetch attempt 1 at 11:05:22
+467 info attempt registry request try #1 at 11:05:22
+468 http fetch GET https://registry.npmjs.org/prismarine-chat/-/prismarine-chat-1.0.3.tgz
+469 http fetch 200 https://registry.npmjs.org/prismarine-windows/-/prismarine-windows-2.0.0.tgz
+470 silly fetchAndShaCheck shasum da562d79f1f0a6b2a6d201b810271e95400e93af
+471 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-windows/-/prismarine-windows-2.0.0.tgz not in flight; adding
+472 verbose addTmpTarball already have metadata; skipping unpack for prismarine-windows@2.0.0
+473 silly cache afterAdd prismarine-windows@2.0.0
+474 verbose afterAdd /home/lcornelius/.npm/prismarine-windows/2.0.0/package/package.json not in flight; writing
+475 http fetch 200 https://registry.npmjs.org/prismarine-item/-/prismarine-item-1.5.0.tgz
+476 silly fetchAndShaCheck shasum 2e58da4014402bb4ba85e0d14360c5a46d2f7c56
+477 verbose afterAdd /home/lcornelius/.npm/prismarine-windows/2.0.0/package/package.json written
+478 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-item/-/prismarine-item-1.5.0.tgz not in flight; adding
+479 verbose addTmpTarball already have metadata; skipping unpack for prismarine-item@1.5.0
+480 http fetch 200 https://registry.npmjs.org/prismarine-chat/-/prismarine-chat-1.0.3.tgz
+481 silly fetchAndShaCheck shasum 0889488ea498449f98522db988ff17678d054c74
+482 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-chat/-/prismarine-chat-1.0.3.tgz not in flight; adding
+483 verbose addTmpTarball already have metadata; skipping unpack for prismarine-chat@1.0.3
+484 silly cache afterAdd prismarine-item@1.5.0
+485 verbose afterAdd /home/lcornelius/.npm/prismarine-item/1.5.0/package/package.json not in flight; writing
+486 verbose afterAdd /home/lcornelius/.npm/prismarine-item/1.5.0/package/package.json written
+487 silly cache afterAdd prismarine-chat@1.0.3
+488 verbose afterAdd /home/lcornelius/.npm/prismarine-chat/1.0.3/package/package.json not in flight; writing
+489 verbose afterAdd /home/lcornelius/.npm/prismarine-chat/1.0.3/package/package.json written
+490 http 200 https://registry.npmjs.org/vec3
+491 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+491 verbose headers   'content-type': 'application/json',
+491 verbose headers   'transfer-encoding': 'chunked',
+491 verbose headers   connection: 'keep-alive',
+491 verbose headers   'set-cookie':
+491 verbose headers    [ '__cfduid=d036674eb24f2c618f4a8ff40930dbd4b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+491 verbose headers   'cf-ray': '61fd9825ddc42ca9-LHR',
+491 verbose headers   'cache-control': 'public, max-age=300',
+491 verbose headers   etag: 'W/"1e6f0454c97c47e16c7a5b5c9c06e8ff"',
+491 verbose headers   'last-modified': 'Fri, 04 Sep 2020 15:18:19 GMT',
+491 verbose headers   vary: 'accept-encoding, accept',
+491 verbose headers   'cf-cache-status': 'MISS',
+491 verbose headers   'cf-request-id': '08325d6bae00002ca95037b000000001',
+491 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+491 verbose headers   server: 'cloudflare',
+491 verbose headers   'content-encoding': 'gzip' }
+492 silly get cb [ 200,
+492 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+492 silly get     'content-type': 'application/json',
+492 silly get     'transfer-encoding': 'chunked',
+492 silly get     connection: 'keep-alive',
+492 silly get     'set-cookie':
+492 silly get      [ '__cfduid=d036674eb24f2c618f4a8ff40930dbd4b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+492 silly get     'cf-ray': '61fd9825ddc42ca9-LHR',
+492 silly get     'cache-control': 'public, max-age=300',
+492 silly get     etag: 'W/"1e6f0454c97c47e16c7a5b5c9c06e8ff"',
+492 silly get     'last-modified': 'Fri, 04 Sep 2020 15:18:19 GMT',
+492 silly get     vary: 'accept-encoding, accept',
+492 silly get     'cf-cache-status': 'MISS',
+492 silly get     'cf-request-id': '08325d6bae00002ca95037b000000001',
+492 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+492 silly get     server: 'cloudflare',
+492 silly get     'content-encoding': 'gzip' } ]
+493 verbose get saving vec3 to /home/lcornelius/.npm/registry.npmjs.org/vec3/.cache.json
+494 silly resolveWithNewModule vec3@0.1.7 checking installable status
+495 silly cache add args [ 'vec3@^0.1.6', null ]
+496 verbose cache add spec vec3@^0.1.6
+497 silly cache add parsed spec Result {
+497 silly cache add   raw: 'vec3@^0.1.6',
+497 silly cache add   scope: null,
+497 silly cache add   name: 'vec3',
+497 silly cache add   rawSpec: '^0.1.6',
+497 silly cache add   spec: '>=0.1.6 <0.2.0',
+497 silly cache add   type: 'range' }
+498 silly addNamed vec3@>=0.1.6 <0.2.0
+499 verbose addNamed ">=0.1.6 <0.2.0" is a valid semver range for vec3
+500 silly addNameRange { name: 'vec3', range: '>=0.1.6 <0.2.0', hasData: false }
+501 silly mapToRegistry name vec3
+502 silly mapToRegistry using default registry
+503 silly mapToRegistry registry https://registry.npmjs.org/
+504 silly mapToRegistry uri https://registry.npmjs.org/vec3
+505 verbose addNameRange registry:https://registry.npmjs.org/vec3 not in flight; fetching
+506 verbose get https://registry.npmjs.org/vec3 not expired, no request
+507 silly addNameRange number 2 { name: 'vec3', range: '>=0.1.6 <0.2.0', hasData: true }
+508 silly addNameRange versions [ 'vec3',
+508 silly addNameRange   [ '0.0.1',
+508 silly addNameRange     '0.0.2',
+508 silly addNameRange     '0.0.3',
+508 silly addNameRange     '0.0.4',
+508 silly addNameRange     '0.0.5',
+508 silly addNameRange     '0.0.6',
+508 silly addNameRange     '0.0.7',
+508 silly addNameRange     '0.0.8',
+508 silly addNameRange     '0.1.0',
+508 silly addNameRange     '0.1.1',
+508 silly addNameRange     '0.1.2',
+508 silly addNameRange     '0.1.3',
+508 silly addNameRange     '0.1.4',
+508 silly addNameRange     '0.1.5',
+508 silly addNameRange     '0.1.6',
+508 silly addNameRange     '0.1.7' ] ]
+509 silly addNamed vec3@0.1.7
+510 verbose addNamed "0.1.7" is a plain semver version for vec3
+511 silly mapToRegistry name vec3
+512 silly mapToRegistry using default registry
+513 silly mapToRegistry registry https://registry.npmjs.org/
+514 silly mapToRegistry uri https://registry.npmjs.org/vec3
+515 verbose addRemoteTarball https://registry.npmjs.org/vec3/-/vec3-0.1.7.tgz not in flight; adding
+516 verbose addRemoteTarball [ 'https://registry.npmjs.org/vec3/-/vec3-0.1.7.tgz',
+516 verbose addRemoteTarball   'e203a7bcc2d074c328721421beed48b30c81e41b' ]
+517 info retry fetch attempt 1 at 11:05:22
+518 info attempt registry request try #1 at 11:05:22
+519 http fetch GET https://registry.npmjs.org/vec3/-/vec3-0.1.7.tgz
+520 http fetch 200 https://registry.npmjs.org/vec3/-/vec3-0.1.7.tgz
+521 silly fetchAndShaCheck shasum e203a7bcc2d074c328721421beed48b30c81e41b
+522 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/vec3/-/vec3-0.1.7.tgz not in flight; adding
+523 verbose addTmpTarball already have metadata; skipping unpack for vec3@0.1.7
+524 silly cache afterAdd vec3@0.1.7
+525 verbose afterAdd /home/lcornelius/.npm/vec3/0.1.7/package/package.json not in flight; writing
+526 verbose afterAdd /home/lcornelius/.npm/vec3/0.1.7/package/package.json written
+527 http 200 https://registry.npmjs.org/prismarine-physics
+528 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+528 verbose headers   'content-type': 'application/json',
+528 verbose headers   'transfer-encoding': 'chunked',
+528 verbose headers   connection: 'keep-alive',
+528 verbose headers   'set-cookie':
+528 verbose headers    [ '__cfduid=d8c78e59a68fdc3dd561c77bc695aa69b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+528 verbose headers   'cf-ray': '61fd9825db8440c0-LHR',
+528 verbose headers   'cache-control': 'public, max-age=300',
+528 verbose headers   etag: 'W/"12dd51829493bc0980135d596afa1c0d"',
+528 verbose headers   'last-modified': 'Wed, 27 Jan 2021 19:20:07 GMT',
+528 verbose headers   vary: 'accept-encoding, accept',
+528 verbose headers   'cf-cache-status': 'MISS',
+528 verbose headers   'cf-request-id': '08325d6ba8000040c06014d000000001',
+528 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+528 verbose headers   server: 'cloudflare',
+528 verbose headers   'content-encoding': 'gzip' }
+529 silly get cb [ 200,
+529 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+529 silly get     'content-type': 'application/json',
+529 silly get     'transfer-encoding': 'chunked',
+529 silly get     connection: 'keep-alive',
+529 silly get     'set-cookie':
+529 silly get      [ '__cfduid=d8c78e59a68fdc3dd561c77bc695aa69b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+529 silly get     'cf-ray': '61fd9825db8440c0-LHR',
+529 silly get     'cache-control': 'public, max-age=300',
+529 silly get     etag: 'W/"12dd51829493bc0980135d596afa1c0d"',
+529 silly get     'last-modified': 'Wed, 27 Jan 2021 19:20:07 GMT',
+529 silly get     vary: 'accept-encoding, accept',
+529 silly get     'cf-cache-status': 'MISS',
+529 silly get     'cf-request-id': '08325d6ba8000040c06014d000000001',
+529 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+529 silly get     server: 'cloudflare',
+529 silly get     'content-encoding': 'gzip' } ]
+530 verbose get saving prismarine-physics to /home/lcornelius/.npm/registry.npmjs.org/prismarine-physics/.cache.json
+531 silly resolveWithNewModule prismarine-physics@1.2.2 checking installable status
+532 silly cache add args [ 'prismarine-physics@^1.0.4', null ]
+533 verbose cache add spec prismarine-physics@^1.0.4
+534 silly cache add parsed spec Result {
+534 silly cache add   raw: 'prismarine-physics@^1.0.4',
+534 silly cache add   scope: null,
+534 silly cache add   name: 'prismarine-physics',
+534 silly cache add   rawSpec: '^1.0.4',
+534 silly cache add   spec: '>=1.0.4 <2.0.0',
+534 silly cache add   type: 'range' }
+535 silly addNamed prismarine-physics@>=1.0.4 <2.0.0
+536 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for prismarine-physics
+537 silly addNameRange { name: 'prismarine-physics',
+537 silly addNameRange   range: '>=1.0.4 <2.0.0',
+537 silly addNameRange   hasData: false }
+538 silly mapToRegistry name prismarine-physics
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry uri https://registry.npmjs.org/prismarine-physics
+542 verbose addNameRange registry:https://registry.npmjs.org/prismarine-physics not in flight; fetching
+543 verbose get https://registry.npmjs.org/prismarine-physics not expired, no request
+544 silly addNameRange number 2 { name: 'prismarine-physics',
+544 silly addNameRange   range: '>=1.0.4 <2.0.0',
+544 silly addNameRange   hasData: true }
+545 silly addNameRange versions [ 'prismarine-physics',
+545 silly addNameRange   [ '1.0.0',
+545 silly addNameRange     '1.0.1',
+545 silly addNameRange     '1.0.2',
+545 silly addNameRange     '1.0.3',
+545 silly addNameRange     '1.0.4',
+545 silly addNameRange     '1.0.5',
+545 silly addNameRange     '1.0.6',
+545 silly addNameRange     '1.0.7',
+545 silly addNameRange     '1.0.8',
+545 silly addNameRange     '1.1.0',
+545 silly addNameRange     '1.2.0',
+545 silly addNameRange     '1.2.1',
+545 silly addNameRange     '1.2.2' ] ]
+546 silly addNamed prismarine-physics@1.2.2
+547 verbose addNamed "1.2.2" is a plain semver version for prismarine-physics
+548 silly mapToRegistry name prismarine-physics
+549 silly mapToRegistry using default registry
+550 silly mapToRegistry registry https://registry.npmjs.org/
+551 silly mapToRegistry uri https://registry.npmjs.org/prismarine-physics
+552 verbose addRemoteTarball https://registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.2.2.tgz not in flight; adding
+553 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.2.2.tgz',
+553 verbose addRemoteTarball   '28d6383626f8467696a1eead305b8dead148ceb6' ]
+554 info retry fetch attempt 1 at 11:05:22
+555 info attempt registry request try #1 at 11:05:22
+556 http fetch GET https://registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.2.2.tgz
+557 http 200 https://registry.npmjs.org/prismarine-chunk
+558 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+558 verbose headers   'content-type': 'application/json',
+558 verbose headers   'transfer-encoding': 'chunked',
+558 verbose headers   connection: 'keep-alive',
+558 verbose headers   'set-cookie':
+558 verbose headers    [ '__cfduid=d2a46a87e5a65920d563c65dd2034ed8c1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+558 verbose headers   'cf-ray': '61fd9825cfb74233-LHR',
+558 verbose headers   'cache-control': 'public, max-age=300',
+558 verbose headers   etag: 'W/"ad4e63e962b879afa6ba5ff5c63c3ec2"',
+558 verbose headers   'last-modified': 'Tue, 29 Dec 2020 23:17:50 GMT',
+558 verbose headers   vary: 'accept-encoding, accept',
+558 verbose headers   'cf-cache-status': 'MISS',
+558 verbose headers   'cf-request-id': '08325d6b99000042334b0b8000000001',
+558 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+558 verbose headers   server: 'cloudflare',
+558 verbose headers   'content-encoding': 'gzip' }
+559 silly get cb [ 200,
+559 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+559 silly get     'content-type': 'application/json',
+559 silly get     'transfer-encoding': 'chunked',
+559 silly get     connection: 'keep-alive',
+559 silly get     'set-cookie':
+559 silly get      [ '__cfduid=d2a46a87e5a65920d563c65dd2034ed8c1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+559 silly get     'cf-ray': '61fd9825cfb74233-LHR',
+559 silly get     'cache-control': 'public, max-age=300',
+559 silly get     etag: 'W/"ad4e63e962b879afa6ba5ff5c63c3ec2"',
+559 silly get     'last-modified': 'Tue, 29 Dec 2020 23:17:50 GMT',
+559 silly get     vary: 'accept-encoding, accept',
+559 silly get     'cf-cache-status': 'MISS',
+559 silly get     'cf-request-id': '08325d6b99000042334b0b8000000001',
+559 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+559 silly get     server: 'cloudflare',
+559 silly get     'content-encoding': 'gzip' } ]
+560 verbose get saving prismarine-chunk to /home/lcornelius/.npm/registry.npmjs.org/prismarine-chunk/.cache.json
+561 http 200 https://registry.npmjs.org/prismarine-world
+562 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+562 verbose headers   'content-type': 'application/json',
+562 verbose headers   'transfer-encoding': 'chunked',
+562 verbose headers   connection: 'keep-alive',
+562 verbose headers   'set-cookie':
+562 verbose headers    [ '__cfduid=d35605787a7389881bc3c56d33b703fbc1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+562 verbose headers   'cf-ray': '61fd9825e81c0635-LHR',
+562 verbose headers   'cache-control': 'public, max-age=300',
+562 verbose headers   etag: 'W/"4e74230f58abbf0d9af7e9250f4c09f5"',
+562 verbose headers   'last-modified': 'Mon, 08 Feb 2021 08:28:45 GMT',
+562 verbose headers   vary: 'accept-encoding, accept',
+562 verbose headers   'cf-cache-status': 'MISS',
+562 verbose headers   'cf-request-id': '08325d6bae00000635c03ea000000001',
+562 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+562 verbose headers   server: 'cloudflare',
+562 verbose headers   'content-encoding': 'gzip' }
+563 silly get cb [ 200,
+563 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+563 silly get     'content-type': 'application/json',
+563 silly get     'transfer-encoding': 'chunked',
+563 silly get     connection: 'keep-alive',
+563 silly get     'set-cookie':
+563 silly get      [ '__cfduid=d35605787a7389881bc3c56d33b703fbc1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+563 silly get     'cf-ray': '61fd9825e81c0635-LHR',
+563 silly get     'cache-control': 'public, max-age=300',
+563 silly get     etag: 'W/"4e74230f58abbf0d9af7e9250f4c09f5"',
+563 silly get     'last-modified': 'Mon, 08 Feb 2021 08:28:45 GMT',
+563 silly get     vary: 'accept-encoding, accept',
+563 silly get     'cf-cache-status': 'MISS',
+563 silly get     'cf-request-id': '08325d6bae00000635c03ea000000001',
+563 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+563 silly get     server: 'cloudflare',
+563 silly get     'content-encoding': 'gzip' } ]
+564 verbose get saving prismarine-world to /home/lcornelius/.npm/registry.npmjs.org/prismarine-world/.cache.json
+565 silly resolveWithNewModule prismarine-chunk@1.22.0 checking installable status
+566 silly resolveWithNewModule prismarine-world@3.3.1 checking installable status
+567 silly cache add args [ 'prismarine-world@^3.2.0', null ]
+568 verbose cache add spec prismarine-world@^3.2.0
+569 silly cache add parsed spec Result {
+569 silly cache add   raw: 'prismarine-world@^3.2.0',
+569 silly cache add   scope: null,
+569 silly cache add   name: 'prismarine-world',
+569 silly cache add   rawSpec: '^3.2.0',
+569 silly cache add   spec: '>=3.2.0 <4.0.0',
+569 silly cache add   type: 'range' }
+570 silly addNamed prismarine-world@>=3.2.0 <4.0.0
+571 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for prismarine-world
+572 silly addNameRange { name: 'prismarine-world',
+572 silly addNameRange   range: '>=3.2.0 <4.0.0',
+572 silly addNameRange   hasData: false }
+573 silly mapToRegistry name prismarine-world
+574 silly mapToRegistry using default registry
+575 silly mapToRegistry registry https://registry.npmjs.org/
+576 silly mapToRegistry uri https://registry.npmjs.org/prismarine-world
+577 verbose addNameRange registry:https://registry.npmjs.org/prismarine-world not in flight; fetching
+578 http fetch 200 https://registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.2.2.tgz
+579 verbose get https://registry.npmjs.org/prismarine-world not expired, no request
+580 silly addNameRange number 2 { name: 'prismarine-world',
+580 silly addNameRange   range: '>=3.2.0 <4.0.0',
+580 silly addNameRange   hasData: true }
+581 silly addNameRange versions [ 'prismarine-world',
+581 silly addNameRange   [ '0.1.0',
+581 silly addNameRange     '0.2.0',
+581 silly addNameRange     '0.3.0',
+581 silly addNameRange     '0.3.1',
+581 silly addNameRange     '0.3.2',
+581 silly addNameRange     '0.3.3',
+581 silly addNameRange     '0.4.0',
+581 silly addNameRange     '0.5.0',
+581 silly addNameRange     '0.5.1',
+581 silly addNameRange     '0.5.2',
+581 silly addNameRange     '0.5.3',
+581 silly addNameRange     '0.5.4',
+581 silly addNameRange     '0.5.5',
+581 silly addNameRange     '1.0.0',
+581 silly addNameRange     '1.0.1',
+581 silly addNameRange     '1.0.2',
+581 silly addNameRange     '2.0.0',
+581 silly addNameRange     '2.1.0',
+581 silly addNameRange     '2.2.0',
+581 silly addNameRange     '2.3.0',
+581 silly addNameRange     '3.0.0',
+581 silly addNameRange     '3.1.0',
+581 silly addNameRange     '3.1.1',
+581 silly addNameRange     '3.2.0',
+581 silly addNameRange     '3.3.0',
+581 silly addNameRange     '3.3.1' ] ]
+582 silly addNamed prismarine-world@3.3.1
+583 verbose addNamed "3.3.1" is a plain semver version for prismarine-world
+584 silly fetchAndShaCheck shasum 28d6383626f8467696a1eead305b8dead148ceb6
+585 silly mapToRegistry name prismarine-world
+586 silly mapToRegistry using default registry
+587 silly mapToRegistry registry https://registry.npmjs.org/
+588 silly mapToRegistry uri https://registry.npmjs.org/prismarine-world
+589 verbose addRemoteTarball https://registry.npmjs.org/prismarine-world/-/prismarine-world-3.3.1.tgz not in flight; adding
+590 verbose addRemoteTarball [ 'https://registry.npmjs.org/prismarine-world/-/prismarine-world-3.3.1.tgz',
+590 verbose addRemoteTarball   '0e00a0b7db78c391fee559e2f12084b6ed417661' ]
+591 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-physics/-/prismarine-physics-1.2.2.tgz not in flight; adding
+592 verbose addTmpTarball already have metadata; skipping unpack for prismarine-physics@1.2.2
+593 http 200 https://registry.npmjs.org/protodef
+594 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+594 verbose headers   'content-type': 'application/json',
+594 verbose headers   'transfer-encoding': 'chunked',
+594 verbose headers   connection: 'keep-alive',
+594 verbose headers   'set-cookie':
+594 verbose headers    [ '__cfduid=d7caa305f5a1dd086d79ea532a1d7eb6b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+594 verbose headers   'cf-ray': '61fd9825daed06d5-LHR',
+594 verbose headers   'cache-control': 'public, max-age=300',
+594 verbose headers   etag: 'W/"ba0ad2956ed8bb254f4a79d866ca6d88"',
+594 verbose headers   'last-modified': 'Tue, 09 Feb 2021 22:41:28 GMT',
+594 verbose headers   vary: 'accept-encoding, accept',
+594 verbose headers   'cf-cache-status': 'MISS',
+594 verbose headers   'cf-request-id': '08325d6bac000006d525025000000001',
+594 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+594 verbose headers   server: 'cloudflare',
+594 verbose headers   'content-encoding': 'gzip' }
+595 silly get cb [ 200,
+595 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+595 silly get     'content-type': 'application/json',
+595 silly get     'transfer-encoding': 'chunked',
+595 silly get     connection: 'keep-alive',
+595 silly get     'set-cookie':
+595 silly get      [ '__cfduid=d7caa305f5a1dd086d79ea532a1d7eb6b1613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+595 silly get     'cf-ray': '61fd9825daed06d5-LHR',
+595 silly get     'cache-control': 'public, max-age=300',
+595 silly get     etag: 'W/"ba0ad2956ed8bb254f4a79d866ca6d88"',
+595 silly get     'last-modified': 'Tue, 09 Feb 2021 22:41:28 GMT',
+595 silly get     vary: 'accept-encoding, accept',
+595 silly get     'cf-cache-status': 'MISS',
+595 silly get     'cf-request-id': '08325d6bac000006d525025000000001',
+595 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+595 silly get     server: 'cloudflare',
+595 silly get     'content-encoding': 'gzip' } ]
+596 verbose get saving protodef to /home/lcornelius/.npm/registry.npmjs.org/protodef/.cache.json
+597 info retry fetch attempt 1 at 11:05:22
+598 info attempt registry request try #1 at 11:05:22
+599 http fetch GET https://registry.npmjs.org/prismarine-world/-/prismarine-world-3.3.1.tgz
+600 silly resolveWithNewModule protodef@1.9.0 checking installable status
+601 silly cache afterAdd prismarine-physics@1.2.2
+602 verbose afterAdd /home/lcornelius/.npm/prismarine-physics/1.2.2/package/package.json not in flight; writing
+603 verbose afterAdd /home/lcornelius/.npm/prismarine-physics/1.2.2/package/package.json written
+604 http fetch 200 https://registry.npmjs.org/prismarine-world/-/prismarine-world-3.3.1.tgz
+605 silly fetchAndShaCheck shasum 0e00a0b7db78c391fee559e2f12084b6ed417661
+606 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/prismarine-world/-/prismarine-world-3.3.1.tgz not in flight; adding
+607 verbose addTmpTarball already have metadata; skipping unpack for prismarine-world@3.3.1
+608 silly cache afterAdd prismarine-world@3.3.1
+609 verbose afterAdd /home/lcornelius/.npm/prismarine-world/3.3.1/package/package.json not in flight; writing
+610 verbose afterAdd /home/lcornelius/.npm/prismarine-world/3.3.1/package/package.json written
+611 http 200 https://registry.npmjs.org/minecraft-data
+612 verbose headers { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+612 verbose headers   'content-type': 'application/json',
+612 verbose headers   'transfer-encoding': 'chunked',
+612 verbose headers   connection: 'keep-alive',
+612 verbose headers   'set-cookie':
+612 verbose headers    [ '__cfduid=d0b8bce9ede58e0430fd544cb47bf2ba11613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+612 verbose headers   'cf-ray': '61fd9825bbcd0736-LHR',
+612 verbose headers   'cache-control': 'public, max-age=300',
+612 verbose headers   etag: 'W/"eeb36bcaeeba28e0991d879d7a9b031d"',
+612 verbose headers   'last-modified': 'Fri, 22 Jan 2021 22:16:43 GMT',
+612 verbose headers   vary: 'accept-encoding, accept',
+612 verbose headers   'cf-cache-status': 'MISS',
+612 verbose headers   'cf-request-id': '08325d6b92000007367b96a000000001',
+612 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+612 verbose headers   server: 'cloudflare',
+612 verbose headers   'content-encoding': 'gzip' }
+613 silly get cb [ 200,
+613 silly get   { date: 'Thu, 11 Feb 2021 11:05:22 GMT',
+613 silly get     'content-type': 'application/json',
+613 silly get     'transfer-encoding': 'chunked',
+613 silly get     connection: 'keep-alive',
+613 silly get     'set-cookie':
+613 silly get      [ '__cfduid=d0b8bce9ede58e0430fd544cb47bf2ba11613041521; expires=Sat, 13-Mar-21 11:05:21 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+613 silly get     'cf-ray': '61fd9825bbcd0736-LHR',
+613 silly get     'cache-control': 'public, max-age=300',
+613 silly get     etag: 'W/"eeb36bcaeeba28e0991d879d7a9b031d"',
+613 silly get     'last-modified': 'Fri, 22 Jan 2021 22:16:43 GMT',
+613 silly get     vary: 'accept-encoding, accept',
+613 silly get     'cf-cache-status': 'MISS',
+613 silly get     'cf-request-id': '08325d6b92000007367b96a000000001',
+613 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+613 silly get     server: 'cloudflare',
+613 silly get     'content-encoding': 'gzip' } ]
+614 verbose get saving minecraft-data to /home/lcornelius/.npm/registry.npmjs.org/minecraft-data/.cache.json
+615 silly resolveWithNewModule minecraft-data@2.74.0 checking installable status
+616 silly cache add args [ 'minecraft-data@^2.70.0', null ]
+617 verbose cache add spec minecraft-data@^2.70.0
+618 silly cache add parsed spec Result {
+618 silly cache add   raw: 'minecraft-data@^2.70.0',
+618 silly cache add   scope: null,
+618 silly cache add   name: 'minecraft-data',
+618 silly cache add   rawSpec: '^2.70.0',
+618 silly cache add   spec: '>=2.70.0 <3.0.0',
+618 silly cache add   type: 'range' }
+619 silly addNamed minecraft-data@>=2.70.0 <3.0.0
+620 verbose addNamed ">=2.70.0 <3.0.0" is a valid semver range for minecraft-data
+621 silly addNameRange { name: 'minecraft-data',
+621 silly addNameRange   range: '>=2.70.0 <3.0.0',
+621 silly addNameRange   hasData: false }
+622 silly mapToRegistry name minecraft-data
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry uri https://registry.npmjs.org/minecraft-data
+626 verbose addNameRange registry:https://registry.npmjs.org/minecraft-data not in flight; fetching
+627 verbose get https://registry.npmjs.org/minecraft-data not expired, no request
+628 silly addNameRange number 2 { name: 'minecraft-data',
+628 silly addNameRange   range: '>=2.70.0 <3.0.0',
+628 silly addNameRange   hasData: true }
+629 silly addNameRange versions [ 'minecraft-data',
+629 silly addNameRange   [ '0.0.1',
+629 silly addNameRange     '0.1.0',
+629 silly addNameRange     '0.1.1',
+629 silly addNameRange     '0.2.0',
+629 silly addNameRange     '0.2.1',
+629 silly addNameRange     '0.3.0',
+629 silly addNameRange     '0.4.0',
+629 silly addNameRange     '0.5.0',
+629 silly addNameRange     '0.5.1',
+629 silly addNameRange     '0.5.2',
+629 silly addNameRange     '0.6.0',
+629 silly addNameRange     '0.7.0',
+629 silly addNameRange     '0.8.0',
+629 silly addNameRange     '0.8.1',
+629 silly addNameRange     '0.9.0',
+629 silly addNameRange     '0.10.0',
+629 silly addNameRange     '0.11.0',
+629 silly addNameRange     '0.12.0',
+629 silly addNameRange     '0.13.0',
+629 silly addNameRange     '0.14.0',
+629 silly addNameRange     '0.15.0',
+629 silly addNameRange     '0.16.0',
+629 silly addNameRange     '0.16.1',
+629 silly addNameRange     '0.16.2',
+629 silly addNameRange     '0.16.3',
+629 silly addNameRange     '0.17.0',
+629 silly addNameRange     '0.18.0',
+629 silly addNameRange     '0.19.0',
+629 silly addNameRange     '0.19.1',
+629 silly addNameRange     '0.20.0',
+629 silly addNameRange     '0.20.1',
+629 silly addNameRange     '0.20.2',
+629 silly addNameRange     '0.20.3',
+629 silly addNameRange     '0.20.4',
+629 silly addNameRange     '1.0.0',
+629 silly addNameRange     '1.0.1',
+629 silly addNameRange     '1.0.2',
+629 silly addNameRange     '1.0.3',
+629 silly addNameRange     '1.1.0',
+629 silly addNameRange     '1.2.0',
+629 silly addNameRange     '1.2.1',
+629 silly addNameRange     '1.2.2',
+629 silly addNameRange     '1.2.3',
+629 silly addNameRange     '1.2.4',
+629 silly addNameRange     '1.2.5',
+629 silly addNameRange     '1.2.6',
+629 silly addNameRange     '1.3.0',
+629 silly addNameRange     '1.3.1',
+629 silly addNameRange     '1.4.1',
+629 silly addNameRange     '1.5.0',
+629 silly addNameRange     '1.6.0',
+629 silly addNameRange     '2.0.0',
+629 silly addNameRange     '2.1.0',
+629 silly addNameRange     '2.2.0',
+629 silly addNameRange     '2.3.0',
+629 silly addNameRange     '2.4.0',
+629 silly addNameRange     '2.5.0',
+629 silly addNameRange     '2.5.1',
+629 silly addNameRange     '2.6.0',
+629 silly addNameRange     '2.7.0',
+629 silly addNameRange     '2.8.0',
+629 silly addNameRange     '2.9.0',
+629 silly addNameRange     '2.10.0',
+629 silly addNameRange     '2.11.0',
+629 silly addNameRange     '2.12.0',
+629 silly addNameRange     '2.12.1',
+629 silly addNameRange     '2.13.0',
+629 silly addNameRange     '2.13.1',
+629 silly addNameRange     '2.13.2',
+629 silly addNameRange     '2.13.3',
+629 silly addNameRange     '2.13.4',
+629 silly addNameRange     '2.14.0',
+629 silly addNameRange     '2.15.0',
+629 silly addNameRange     '2.16.0',
+629 silly addNameRange     '2.17.0',
+629 silly addNameRange     '2.18.0',
+629 silly addNameRange     '2.19.0',
+629 silly addNameRange     '2.20.0',
+629 silly addNameRange     '2.21.0',
+629 silly addNameRange     '2.22.0',
+629 silly addNameRange     '2.23.0',
+629 silly addNameRange     '2.24.0',
+629 silly addNameRange     '2.25.0',
+629 silly addNameRange     '2.26.0',
+629 silly addNameRange     '2.27.0',
+629 silly addNameRange     '2.28.0',
+629 silly addNameRange     '2.29.0',
+629 silly addNameRange     '2.30.0',
+629 silly addNameRange     '2.31.0',
+629 silly addNameRange     '2.32.0',
+629 silly addNameRange     '2.33.0',
+629 silly addNameRange     '2.34.0',
+629 silly addNameRange     '2.35.0',
+629 silly addNameRange     '2.35.1',
+629 silly addNameRange     '2.36.0',
+629 silly addNameRange     '2.37.0',
+629 silly addNameRange     '2.37.1',
+629 silly addNameRange     '2.37.2',
+629 silly addNameRange     '2.37.3',
+629 silly addNameRange     '2.37.4',
+629 silly addNameRange     ... 40 more items ] ]
+630 silly addNamed minecraft-data@2.74.0
+631 verbose addNamed "2.74.0" is a plain semver version for minecraft-data
+632 silly mapToRegistry name minecraft-data
+633 silly mapToRegistry using default registry
+634 silly mapToRegistry registry https://registry.npmjs.org/
+635 silly mapToRegistry uri https://registry.npmjs.org/minecraft-data
+636 verbose addRemoteTarball https://registry.npmjs.org/minecraft-data/-/minecraft-data-2.74.0.tgz not in flight; adding
+637 verbose addRemoteTarball [ 'https://registry.npmjs.org/minecraft-data/-/minecraft-data-2.74.0.tgz',
+637 verbose addRemoteTarball   '5f75ff03ecce020935dcec05bf0ef262be46a7f2' ]
+638 info retry fetch attempt 1 at 11:05:22
+639 info attempt registry request try #1 at 11:05:22
+640 http fetch GET https://registry.npmjs.org/minecraft-data/-/minecraft-data-2.74.0.tgz
+641 http fetch 200 https://registry.npmjs.org/minecraft-data/-/minecraft-data-2.74.0.tgz
+642 silly fetchAndShaCheck shasum 5f75ff03ecce020935dcec05bf0ef262be46a7f2
+643 verbose addTmpTarball /tmp/npm-19287-6176c30e/registry.npmjs.org/minecraft-data/-/minecraft-data-2.74.0.tgz not in flight; adding
+644 verbose addTmpTarball already have metadata; skipping unpack for minecraft-data@2.74.0
+645 silly cache afterAdd minecraft-data@2.74.0
+646 verbose afterAdd /home/lcornelius/.npm/minecraft-data/2.74.0/package/package.json not in flight; writing
+647 verbose afterAdd /home/lcornelius/.npm/minecraft-data/2.74.0/package/package.json written
+648 silly rollbackFailedOptional Starting
+649 silly rollbackFailedOptional Finishing
+650 silly runTopLevelLifecycles Starting
+651 silly runTopLevelLifecycles Finishing
+652 silly install printInstalled
+653 verbose stack Error: Unsupported
+653 verbose stack     at checkEngine (/usr/share/npm/node_modules/npm-install-checks/index.js:15:16)
+653 verbose stack     at Array.<anonymous> (/usr/share/npm/node_modules/slide/lib/bind-actor.js:15:8)
+653 verbose stack     at LOOP (/usr/share/npm/node_modules/slide/lib/chain.js:15:14)
+653 verbose stack     at chain (/usr/share/npm/node_modules/slide/lib/chain.js:20:5)
+653 verbose stack     at module.exports.isInstallable (/usr/share/npm/lib/install/validate-args.js:26:3)
+653 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:463:12)
+653 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+653 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+653 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+653 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+654 verbose pkgid prismarine-chunk@1.22.0
+655 verbose cwd /home/lcornelius/mineflayer
+656 error Linux 5.4.0-65-generic
+657 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+658 error node v8.10.0
+659 error npm  v3.5.2
+660 error code ENOTSUP
+661 error notsup Unsupported
+662 error notsup Not compatible with your version of node/npm: prismarine-chunk@1.22.0
+663 error notsup Not compatible with your version of node/npm: prismarine-chunk@1.22.0
+663 error notsup Required: {"node":">=12"}
+663 error notsup Actual:   {"npm":"3.5.2","node":"8.10.0"}
+664 verbose exit [ 1, true ]
