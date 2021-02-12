@@ -22,6 +22,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "axios-debug-log": "^0.8.2",
+    "discord.js": "^12.5.1",
     "minecraft-data": "^2.70.0",
     "minecraft-protocol": "file:../node-minecraft-protocol",
     "mineflayer-armor-manager": "^1.4.0",

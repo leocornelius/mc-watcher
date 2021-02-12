@@ -7,8 +7,21 @@ const inventoryViewer = require('mineflayer-web-inventory')
 const vec3 = require('vec3')
 const armorManager = require('mineflayer-armor-manager')
 const autoeat = require("mineflayer-auto-eat")
-const fs = require('fs');
-let tick_since_warn = 400;
+
+const Discord = require("discord.js"); // imports the discord library
+const fs = require("fs"); // imports the file io library
+
+const discordBot = new Discord.Client(); // creates a discord client
+const token = "ODA5NTE0NjEzODM0MTIxMjM2.YCWNOw.r_LrDs4QVeLJOUOUIB6VrbDzn2I"; // gets your token from the file
+
+discordBot.once("ready", () => { // prints "Ready!" to the console once the bot is online
+  console.log("Discord Ready!");
+});
+
+discordBot.login(token); // starts the bot up
+
+let tick_since_warn = 1000;
+let tick_since_discord = 2500;
 
 // Log content type
 require('axios-debug-log')({
@@ -77,15 +90,14 @@ options.session = {
   selectedProfile: { name: 'steeldeadeye' }
 }
 options.token = undefined;
-
 init();
 
 
 function init(first = true) {
   console.log('Init Bot');
   bot = mineflayer.createBot(options);
-  console.log('Bot Created');
   let WIoptions = {
+    host: '0.0.0.0',
     port: 3001
   };
 
@@ -164,15 +176,22 @@ function init(first = true) {
   // Check for new enemies to attack
   bot.on('physicTick', () => {
     tick_since_warn += 1;
+    tick_since_discord += 1;
     // look for players within redner distanced
-    if (tick_since_warn > 400) {
+    if (tick_since_warn > 1000) {
       const filterPlayer = e => e.type === 'player' && !NOWARN.includes(e.username)
       const Playerentity = bot.nearestEntity(filterPlayer);
       if (Playerentity != null) {
         date = new Date();
         bot.chat('/w ' + Playerentity.username + " please leave the surrounding area of the prison imidiatley. Failure to do so will result in execution and trial for trespassing. Your prescense has been logged");
-        fs.appendFileSync('warns.txt', Playerentity.username + '[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ']' + "\n");
-        console.log(Playerentity.username + '[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ']');
+        let msg = Playerentity.username + '[' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ']';
+        fs.appendFileSync('warns.txt', msg + '\n');
+        if (tick_since_discord > 2500) {
+          console.log(msg);
+          const channel = discordBot.channels.cache.get('809515669523005478');
+          channel.send('<@634078084798349313> ' + Playerentity.username + ' is within prison vincinity! [' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds() + ']');
+          tick_since_discord = 0;
+        }
       }
       tick_since_warn = 0;
     }
@@ -199,6 +218,11 @@ function init(first = true) {
   }
   // Listen for player commands
   bot.on('chat', (username, message) => {
+    if (username != null) {
+        fs.appendFileSync('chat.txt', username + ': ' + message + '\n');
+    } else {
+        fs.appendFileSync('chat.txt', message + '\n');
+    }
     // Guard the location the player is standing
     if (message === '!guard' && OP.includes(username)) {
       const player = bot.players[username]
@@ -236,8 +260,7 @@ function init(first = true) {
       process.exit(1)
     }
     split = message.split(' ');
-    if (split[0] === '!nowarn' && split.length == 2 &&OP.includes(username)) {
-      //console.log("Removed " + split[1] + ' from the nowarn list');
+    if (split[0] === '!nowarn' && split.length == 2 && OP.includes(username)) {
       console.log("Added " + split[1] + ' to the nowarn list');
       NOWARN.push(split[1]);
       let CONFIG_ = {
@@ -246,8 +269,8 @@ function init(first = true) {
       let data = JSON.stringify(CONFIG_);
       fs.writeFileSync('config.json', data);
     }
-    
-    if (split[0] === '!warn' && split.length == 2 &&OP.includes(username)) {
+
+    if (split[0] === '!warn' && split.length == 2 && OP.includes(username)) {
       console.log("Removed " + split[1] + ' from the nowarn list');
       NOWARN.filter(item => item !== split[1]);
       let CONFIG_ = {
